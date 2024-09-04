@@ -4,6 +4,8 @@ This is a 12-key macropad based off of the Raspberry Pi Pico with the intention 
 
 This board is intended for people who want to be able to do the majority of the project on their own - only requiring you to send out the PCB to be made if you want to use one. A alternate switchplate is included for those wanting to handwire their boards.
 
+![image]()
+
 ## What you need
 
 In order to actually make this you will need a few things (assuming you didn't get this as a kit and nothing is preassembled):
@@ -35,6 +37,8 @@ If you are doing this with a stock Pi Pico you might have clearance issues with 
 
 In this step I also recommend making the JST connectors. If you are using a PCB, cut down the pins on the female port before soldering them down, making sure they are flush on both sides so that the Pico will be flat when it is soldered down. This port will make the case and PCB easlily seperable when trying to do work on it. Making the JST connectors is kind of a mess, but watch a tutorial and be patient as to not mess them up. We will cover soldering the USB port to them in the next section.
 
+![image]()
+
 ## Building the board
 
 At this point, you have everything in ready to be soldered, glued, and assembled. We will start by going over the soldering.
@@ -61,5 +65,5 @@ At this time, you should glue the USB-C connector into the case and connect it t
 
 ## Firmware
 
-I will not go over building your own firmware here, as that is far outside the scope of this guide. The firmware provided can be flashed to the pico but plugging in the PCB or Pico to a computer while holding the `BOOTSEL` button and dragging the provided `.uf2` file onto the drive that `RPI-RP2` drive that appears. This will flash the board and you will be ready to go.
+I will not go over building your own firmware here, as that is far outside the scope of this guide. The firmware provided can be flashed to the pico but plugging in the PCB or Pico to a computer while holding the `BOOTSEL` button and dragging the provided `.uf2` file onto the drive that `RPI-RP2` drive that appears. This will flash the board and you will be ready to go. (Test it with a [keyboard tester](https://key-test.com/) to make sure it works with the hardware) 
 
