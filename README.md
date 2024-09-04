@@ -4,7 +4,7 @@ This is a 12-key macropad based off of the Raspberry Pi Pico with the intention 
 
 This board is intended for people who want to be able to do the majority of the project on their own - only requiring you to send out the PCB to be made if you want to use one. A alternate switchplate is included for those wanting to handwire their boards.
 
-![image]()
+![image](https://github.com/TrojanPinata/Macropad-Pico/blob/main/images/DSC_0714.JPG?raw=true)
 
 ## What you need
 
@@ -37,7 +37,7 @@ If you are doing this with a stock Pi Pico you might have clearance issues with 
 
 In this step I also recommend making the JST connectors. If you are using a PCB, cut down the pins on the female port before soldering them down, making sure they are flush on both sides so that the Pico will be flat when it is soldered down. This port will make the case and PCB easlily seperable when trying to do work on it. Making the JST connectors is kind of a mess, but watch a tutorial and be patient as to not mess them up. We will cover soldering the USB port to them in the next section.
 
-![image]()
+![image](https://github.com/TrojanPinata/Macropad-Pico/blob/main/images/DSC_0733.JPG?raw=true)
 
 ## Building the board
 
