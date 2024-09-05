@@ -4,6 +4,8 @@ This is a 12-key macropad based off of the Raspberry Pi Pico with the intention 
 
 This board is intended for people who want to be able to do the majority of the project on their own - only requiring you to send out the PCB to be made if you want to use one. A alternate switchplate is included for those wanting to handwire their boards.
 
+I also made a [video if you want to make this yourself](https://youtu.be/6qyvscmvLPk).
+
 ![image](https://github.com/TrojanPinata/Macropad-Pico/blob/main/images/DSC_0714.JPG?raw=true)
 
 ## What you need
