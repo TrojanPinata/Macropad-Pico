@@ -35,7 +35,7 @@ First thing is first, the case and switchplate will need to be printed. This siz
 
 If you are using the PCB, then you can take the gerbers and send them off to JLCPCB or somewhere and get them made. The PCBs should cost ~$12 with shipping, don't overpay.
 
-If you are doing this with a stock Pi Pico you might have clearance issues with the Micro USB port as it protrudes out a bit. It should fit with a slight bulge (0.1mm too high +/- 0.3mm) - this is mostly a remnant due to using a [Pico I designed myself](https://github.com/TrojanPinata/Pico) which does not have this issue. Shaving down the plate fixes this but it should not get in the way as long as the Pico is soldered down flat.
+If you are doing this with a stock Pi Pico you might have clearance issues with the Micro USB port as it protrudes out a bit. This only occurs if you solder this flat, using headers this won't be an issue. It should fit with a slight bulge (0.1mm too high +/- 0.3mm) - this is mostly a remnant due to using a [Pico I designed myself](https://github.com/TrojanPinata/Pico) which does not have this issue. Shaving down the plate fixes this but it should not get in the way as long as the Pico is soldered down flat.
 
 In this step I also recommend making the JST connectors. If you are using a PCB, cut down the pins on the female port before soldering them down, making sure they are flush on both sides so that the Pico will be flat when it is soldered down. This port will make the case and PCB easlily seperable when trying to do work on it. Making the JST connectors is kind of a mess, but watch a tutorial and be patient as to not mess them up. We will cover soldering the USB port to them in the next section.
 
